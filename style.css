@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* #d40485 */
+
+header {
+    padding: 20px;
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 1s;
+    
+}
+
+nav ul a:hover {
+    background-color: #d40485;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 130px 0;
+}
+
+#inicio h1 {
+    margin-bottom: 30px;
+}
+
+#inicio h3 {
+    margin-bottom: 15px;
+}
+
+#inicio a {
+    background-color: #d40485;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+#inicio a:hover {
+    transform: scale(1.2);
+}
+#modulos{
+text-align: center;
+padding: 20px;
+
+}
+#modulos > h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+#modulos div h2{
+    margin: 50px 0;
+}
+
+#modulos ul{
+    background-color: #fff;
+    list-style: none;
+    margin: 15px 0;
+    
+
+}
+#modulos ul li{
+    line-height: 1.5;
+
+}
+
+#mercado {
+    text-align: center;
+
+}
+#mercado h2{
+    margin: 50px 0;
+}
+#mercado div{
+    padding: 20px;
+    background-color: #d40485;
+    margin: 10px 0;
+    color: #fff;
+}
+#contato{
+    padding: 100px 200px;
+}
+#contato input{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+}
+    
+
+
+
+
+
